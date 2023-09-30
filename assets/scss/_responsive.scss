@@ -1,0 +1,53 @@
+@media (max-width: 1199px) {
+  .container {
+    max-width: none;
+  }
+}
+
+
+
+@media (max-width: 575px) {
+  .comment-form {
+    .comment-fields-row {
+      margin-bottom: 0;
+    }
+
+    .form-comment-item {
+      margin-bottom: 15px;
+    }
+  }
+
+  .site-error {
+    &__content {
+      .heading {
+        font-size: 9rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .comments-area {
+    .comment-list {
+      li {
+        .comment-body {
+          margin-bottom: 15px;
+
+          .comment-meta {
+            padding-left: 15px;
+          }
+        }
+      }
+    }
+
+    ul {
+      li {
+        ul {
+          &.children {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
